@@ -1,0 +1,34 @@
+{
+  "validity": {
+    "mean": 0.9262,
+    "std": 0.0126
+  },
+  "uniqueness": {
+    "mean": 1.0,
+    "std": 0.0
+  },
+  "novelty": {
+    "mean": 0.971,
+    "std": 0.009
+  },
+  "diversity": {
+    "mean": 0.9102,
+    "std": 0.0011
+  },
+  "drug_likeness": {
+    "mean": 0.7594,
+    "std": 0.0172
+  },
+  "qed_mean": {
+    "mean": 0.577,
+    "std": 0.011
+  },
+  "sa_mean": {
+    "mean": 2.779,
+    "std": 0.034
+  },
+  "mw_mean": {
+    "mean": 387.6,
+    "std": 6.7
+  }
+}
