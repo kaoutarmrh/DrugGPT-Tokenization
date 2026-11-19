@@ -1,0 +1,542 @@
+{
+ "bpe": {
+  "vocab": 2059,
+  "top_p": 0.95,
+  "per_run": [
+   {
+    "run": 0,
+    "conversion_failures": 0,
+    "n_valid": 465,
+    "validity": 0.93,
+    "n_unique": 465,
+    "uniqueness": 1.0,
+    "n_novel": 442,
+    "novelty": 0.9505376344086022,
+    "drug_likeness": 0.8144796380090498,
+    "qed_mean": 0.6043708704700141,
+    "sa_mean": 2.7440166830260146,
+    "mw_mean": 375.6045882352942
+   },
+   {
+    "run": 1,
+    "conversion_failures": 0,
+    "n_valid": 467,
+    "validity": 0.934,
+    "n_unique": 467,
+    "uniqueness": 1.0,
+    "n_novel": 430,
+    "novelty": 0.9207708779443254,
+    "drug_likeness": 0.8209302325581396,
+    "qed_mean": 0.5990485181712728,
+    "sa_mean": 2.7441249295252845,
+    "mw_mean": 381.1523906976745
+   },
+   {
+    "run": 2,
+    "conversion_failures": 0,
+    "n_valid": 471,
+    "validity": 0.942,
+    "n_unique": 471,
+    "uniqueness": 1.0,
+    "n_novel": 434,
+    "novelty": 0.921443736730361,
+    "drug_likeness": 0.8248847926267281,
+    "qed_mean": 0.6179483937192277,
+    "sa_mean": 2.6635551713947057,
+    "mw_mean": 366.18330414746555
+   },
+   {
+    "run": 3,
+    "conversion_failures": 0,
+    "n_valid": 480,
+    "validity": 0.96,
+    "n_unique": 480,
+    "uniqueness": 1.0,
+    "n_novel": 446,
+    "novelty": 0.9291666666666667,
+    "drug_likeness": 0.8295964125560538,
+    "qed_mean": 0.6119893152113252,
+    "sa_mean": 2.68749931523614,
+    "mw_mean": 368.51712107623325
+   },
+   {
+    "run": 4,
+    "conversion_failures": 0,
+    "n_valid": 472,
+    "validity": 0.944,
+    "n_unique": 472,
+    "uniqueness": 1.0,
+    "n_novel": 447,
+    "novelty": 0.9470338983050848,
+    "drug_likeness": 0.814317673378076,
+    "qed_mean": 0.5983471194624888,
+    "sa_mean": 2.7214182814053434,
+    "mw_mean": 374.8177694362417
+   },
+   {
+    "run": 5,
+    "conversion_failures": 0,
+    "n_valid": 470,
+    "validity": 0.94,
+    "n_unique": 470,
+    "uniqueness": 1.0,
+    "n_novel": 439,
+    "novelty": 0.9340425531914893,
+    "drug_likeness": 0.8200455580865603,
+    "qed_mean": 0.5969693779866987,
+    "sa_mean": 2.718853469483824,
+    "mw_mean": 372.59184965831446
+   },
+   {
+    "run": 6,
+    "conversion_failures": 0,
+    "n_valid": 473,
+    "validity": 0.946,
+    "n_unique": 473,
+    "uniqueness": 1.0,
+    "n_novel": 447,
+    "novelty": 0.945031712473573,
+    "drug_likeness": 0.8120805369127517,
+    "qed_mean": 0.6144475274787039,
+    "sa_mean": 2.7428891785868514,
+    "mw_mean": 370.20565548098443
+   },
+   {
+    "run": 7,
+    "conversion_failures": 0,
+    "n_valid": 480,
+    "validity": 0.96,
+    "n_unique": 480,
+    "uniqueness": 1.0,
+    "n_novel": 456,
+    "novelty": 0.95,
+    "drug_likeness": 0.7960526315789473,
+    "qed_mean": 0.5903850778639896,
+    "sa_mean": 2.6796430440134,
+    "mw_mean": 370.2249298245615
+   },
+   {
+    "run": 8,
+    "conversion_failures": 0,
+    "n_valid": 469,
+    "validity": 0.938,
+    "n_unique": 469,
+    "uniqueness": 1.0,
+    "n_novel": 421,
+    "novelty": 0.8976545842217484,
+    "drug_likeness": 0.7790973871733967,
+    "qed_mean": 0.5728318613232808,
+    "sa_mean": 2.795411772188164,
+    "mw_mean": 385.3893729216153
+   },
+   {
+    "run": 9,
+    "conversion_failures": 0,
+    "n_valid": 473,
+    "validity": 0.946,
+    "n_unique": 473,
+    "uniqueness": 1.0,
+    "n_novel": 445,
+    "novelty": 0.9408033826638478,
+    "drug_likeness": 0.8382022471910112,
+    "qed_mean": 0.6062409340383289,
+    "sa_mean": 2.737648746014101,
+    "mw_mean": 370.73017738876416
+   }
+  ],
+  "summary": {
+   "validity": {
+    "mean": 0.944,
+    "std": 0.009338094023942981
+   },
+   "uniqueness": {
+    "mean": 1.0,
+    "std": 0.0
+   },
+   "novelty": {
+    "mean": 0.9336485046605698,
+    "std": 0.015947246315691662
+   },
+   "drug_likeness": {
+    "mean": 0.8149687110070715,
+    "std": 0.01602181067444912
+   },
+   "qed_mean": {
+    "mean": 0.6012578995725331,
+    "std": 0.012490903521938004
+   },
+   "sa_mean": {
+    "mean": 2.723506059087383,
+    "std": 0.03665042979149749
+   },
+   "mw_mean": {
+    "mean": 373.5417158867149,
+    "std": 5.608058871004535
+   },
+   "mean_nucleus_size": {
+    "mean": 74.64699151131825,
+    "std": 92.01220975516361
+   }
+  }
+ },
+ "kmer": {
+  "vocab": 4648,
+  "top_p": 0.95,
+  "per_run": [
+   {
+    "run": 0,
+    "conversion_failures": 0,
+    "n_valid": 474,
+    "validity": 0.948,
+    "n_unique": 474,
+    "uniqueness": 1.0,
+    "n_novel": 450,
+    "novelty": 0.9493670886075949,
+    "drug_likeness": 0.7955555555555556,
+    "qed_mean": 0.5963073877183679,
+    "sa_mean": 2.724231494831749,
+    "mw_mean": 385.13297333333344
+   },
+   {
+    "run": 1,
+    "conversion_failures": 0,
+    "n_valid": 470,
+    "validity": 0.94,
+    "n_unique": 470,
+    "uniqueness": 1.0,
+    "n_novel": 453,
+    "novelty": 0.9638297872340426,
+    "drug_likeness": 0.7792494481236203,
+    "qed_mean": 0.5921743156220175,
+    "sa_mean": 2.663222077014244,
+    "mw_mean": 385.90816335540853
+   },
+   {
+    "run": 2,
+    "conversion_failures": 0,
+    "n_valid": 472,
+    "validity": 0.944,
+    "n_unique": 472,
+    "uniqueness": 1.0,
+    "n_novel": 460,
+    "novelty": 0.9745762711864406,
+    "drug_likeness": 0.8,
+    "qed_mean": 0.6091448990628547,
+    "sa_mean": 2.6054372098487297,
+    "mw_mean": 379.8699347826088
+   },
+   {
+    "run": 3,
+    "conversion_failures": 0,
+    "n_valid": 462,
+    "validity": 0.924,
+    "n_unique": 462,
+    "uniqueness": 1.0,
+    "n_novel": 447,
+    "novelty": 0.9675324675324676,
+    "drug_likeness": 0.7919463087248322,
+    "qed_mean": 0.5987701919244225,
+    "sa_mean": 2.6470405007551716,
+    "mw_mean": 392.24588590604037
+   },
+   {
+    "run": 4,
+    "conversion_failures": 0,
+    "n_valid": 467,
+    "validity": 0.934,
+    "n_unique": 466,
+    "uniqueness": 0.9978586723768736,
+    "n_novel": 445,
+    "novelty": 0.9549356223175965,
+    "drug_likeness": 0.7752808988764045,
+    "qed_mean": 0.5952913395093881,
+    "sa_mean": 2.6763337347290035,
+    "mw_mean": 388.7049573033709
+   },
+   {
+    "run": 5,
+    "conversion_failures": 0,
+    "n_valid": 461,
+    "validity": 0.922,
+    "n_unique": 461,
+    "uniqueness": 1.0,
+    "n_novel": 440,
+    "novelty": 0.9544468546637744,
+    "drug_likeness": 0.7772727272727272,
+    "qed_mean": 0.5835584918068205,
+    "sa_mean": 2.6651566477383293,
+    "mw_mean": 385.909065909091
+   },
+   {
+    "run": 6,
+    "conversion_failures": 0,
+    "n_valid": 463,
+    "validity": 0.926,
+    "n_unique": 463,
+    "uniqueness": 1.0,
+    "n_novel": 446,
+    "novelty": 0.9632829373650108,
+    "drug_likeness": 0.7959641255605381,
+    "qed_mean": 0.5983236160730799,
+    "sa_mean": 2.6352875082053573,
+    "mw_mean": 381.7063206278028
+   },
+   {
+    "run": 7,
+    "conversion_failures": 0,
+    "n_valid": 459,
+    "validity": 0.918,
+    "n_unique": 459,
+    "uniqueness": 1.0,
+    "n_novel": 435,
+    "novelty": 0.9477124183006536,
+    "drug_likeness": 0.8045977011494253,
+    "qed_mean": 0.5956322470261144,
+    "sa_mean": 2.6751925260777623,
+    "mw_mean": 385.3755839080461
+   },
+   {
+    "run": 8,
+    "conversion_failures": 0,
+    "n_valid": 468,
+    "validity": 0.936,
+    "n_unique": 468,
+    "uniqueness": 1.0,
+    "n_novel": 441,
+    "novelty": 0.9423076923076923,
+    "drug_likeness": 0.7845804988662132,
+    "qed_mean": 0.5973646873846025,
+    "sa_mean": 2.673850865397739,
+    "mw_mean": 387.27434693877564
+   },
+   {
+    "run": 9,
+    "conversion_failures": 0,
+    "n_valid": 467,
+    "validity": 0.934,
+    "n_unique": 467,
+    "uniqueness": 1.0,
+    "n_novel": 439,
+    "novelty": 0.9400428265524625,
+    "drug_likeness": 0.7790432801822323,
+    "qed_mean": 0.5923015782825433,
+    "sa_mean": 2.6761229850971304,
+    "mw_mean": 392.3550569476083
+   }
+  ],
+  "summary": {
+   "validity": {
+    "mean": 0.9326,
+    "std": 0.009382963284591888
+   },
+   "uniqueness": {
+    "mean": 0.9997858672376874,
+    "std": 0.0006423982869379063
+   },
+   "novelty": {
+    "mean": 0.9558033966067736,
+    "std": 0.010725536038143127
+   },
+   "drug_likeness": {
+    "mean": 0.7883490544311549,
+    "std": 0.009998451136711366
+   },
+   "qed_mean": {
+    "mean": 0.5958868754410211,
+    "std": 0.006094531694530013
+   },
+   "sa_mean": {
+    "mean": 2.6641875549695215,
+    "std": 0.02948297196395632
+   },
+   "mw_mean": {
+    "mean": 386.4482289012086,
+    "std": 3.788155461550386
+   },
+   "mean_nucleus_size": {
+    "mean": 17.20250497887575,
+    "std": 26.378754355996712
+   }
+  }
+ },
+ "spe": {
+  "vocab": 3226,
+  "top_p": 0.95,
+  "per_run": [
+   {
+    "run": 0,
+    "conversion_failures": 0,
+    "n_valid": 472,
+    "validity": 0.944,
+    "n_unique": 472,
+    "uniqueness": 1.0,
+    "n_novel": 445,
+    "novelty": 0.9427966101694916,
+    "drug_likeness": 0.8202247191011236,
+    "qed_mean": 0.6036165560271316,
+    "sa_mean": 2.799121802060878,
+    "mw_mean": 370.2542741573035
+   },
+   {
+    "run": 1,
+    "conversion_failures": 0,
+    "n_valid": 471,
+    "validity": 0.942,
+    "n_unique": 471,
+    "uniqueness": 1.0,
+    "n_novel": 450,
+    "novelty": 0.9554140127388535,
+    "drug_likeness": 0.8111111111111111,
+    "qed_mean": 0.6026962755616369,
+    "sa_mean": 2.759686232656784,
+    "mw_mean": 382.678548888889
+   },
+   {
+    "run": 2,
+    "conversion_failures": 0,
+    "n_valid": 480,
+    "validity": 0.96,
+    "n_unique": 480,
+    "uniqueness": 1.0,
+    "n_novel": 449,
+    "novelty": 0.9354166666666667,
+    "drug_likeness": 0.8240534521158129,
+    "qed_mean": 0.5930684668270333,
+    "sa_mean": 2.760789085610259,
+    "mw_mean": 375.89950111358587
+   },
+   {
+    "run": 3,
+    "conversion_failures": 0,
+    "n_valid": 477,
+    "validity": 0.954,
+    "n_unique": 477,
+    "uniqueness": 1.0,
+    "n_novel": 448,
+    "novelty": 0.939203354297694,
+    "drug_likeness": 0.8102678571428571,
+    "qed_mean": 0.5988435720928439,
+    "sa_mean": 2.8056112301956024,
+    "mw_mean": 372.70524553571437
+   },
+   {
+    "run": 4,
+    "conversion_failures": 0,
+    "n_valid": 474,
+    "validity": 0.948,
+    "n_unique": 474,
+    "uniqueness": 1.0,
+    "n_novel": 448,
+    "novelty": 0.9451476793248945,
+    "drug_likeness": 0.8013392857142857,
+    "qed_mean": 0.6083260841686794,
+    "sa_mean": 2.753608898055251,
+    "mw_mean": 373.101986607143
+   },
+   {
+    "run": 5,
+    "conversion_failures": 0,
+    "n_valid": 480,
+    "validity": 0.96,
+    "n_unique": 480,
+    "uniqueness": 1.0,
+    "n_novel": 451,
+    "novelty": 0.9395833333333333,
+    "drug_likeness": 0.835920177383592,
+    "qed_mean": 0.6137414030657152,
+    "sa_mean": 2.7161148638441914,
+    "mw_mean": 370.4816629711753
+   },
+   {
+    "run": 6,
+    "conversion_failures": 0,
+    "n_valid": 471,
+    "validity": 0.942,
+    "n_unique": 471,
+    "uniqueness": 1.0,
+    "n_novel": 439,
+    "novelty": 0.9320594479830149,
+    "drug_likeness": 0.8018223234624146,
+    "qed_mean": 0.5877875992303118,
+    "sa_mean": 2.805937862362914,
+    "mw_mean": 376.817859616401
+   },
+   {
+    "run": 7,
+    "conversion_failures": 0,
+    "n_valid": 484,
+    "validity": 0.968,
+    "n_unique": 484,
+    "uniqueness": 1.0,
+    "n_novel": 447,
+    "novelty": 0.9235537190082644,
+    "drug_likeness": 0.8344519015659956,
+    "qed_mean": 0.6054718716842532,
+    "sa_mean": 2.716910681977325,
+    "mw_mean": 368.55307829977636
+   },
+   {
+    "run": 8,
+    "conversion_failures": 1,
+    "n_valid": 479,
+    "validity": 0.958,
+    "n_unique": 479,
+    "uniqueness": 1.0,
+    "n_novel": 453,
+    "novelty": 0.9457202505219207,
+    "drug_likeness": 0.82560706401766,
+    "qed_mean": 0.6051519346988501,
+    "sa_mean": 2.749354962036548,
+    "mw_mean": 372.4179757174394
+   },
+   {
+    "run": 9,
+    "conversion_failures": 1,
+    "n_valid": 472,
+    "validity": 0.944,
+    "n_unique": 472,
+    "uniqueness": 1.0,
+    "n_novel": 447,
+    "novelty": 0.9470338983050848,
+    "drug_likeness": 0.7941834451901566,
+    "qed_mean": 0.5925095442638726,
+    "sa_mean": 2.767908020358701,
+    "mw_mean": 376.5193243847876
+   }
+  ],
+  "summary": {
+   "validity": {
+    "mean": 0.952,
+    "std": 0.008763560920082666
+   },
+   "uniqueness": {
+    "mean": 1.0,
+    "std": 0.0
+   },
+   "novelty": {
+    "mean": 0.9405928972349218,
+    "std": 0.008402028709768517
+   },
+   "drug_likeness": {
+    "mean": 0.8158981336805009,
+    "std": 0.013641291023485396
+   },
+   "qed_mean": {
+    "mean": 0.6011213307620328,
+    "std": 0.007596330275982831
+   },
+   "sa_mean": {
+    "mean": 2.763504363915845,
+    "std": 0.030981279287334473
+   },
+   "mw_mean": {
+    "mean": 373.94294572922155,
+    "std": 3.9273887396754983
+   },
+   "mean_nucleus_size": {
+    "mean": 111.48231396077729,
+    "std": 146.62445801346144
+   }
+  }
+ }
+}

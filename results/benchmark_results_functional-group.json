@@ -1,0 +1,161 @@
+{
+  "tokenizer": "functional-group",
+  "n_runs": 10,
+  "n_samples_per_run": 500,
+  "per_run_results": [
+    {
+      "run": 0,
+      "n_generated": 500,
+      "validity": 0.584,
+      "uniqueness": 1.0,
+      "novelty": 0.9863013698630136,
+      "diversity": 0.9111838973556621,
+      "drug_likeness": 0.8368055555555556,
+      "qed_mean": 0.639963089230441,
+      "sa_mean": 2.5848828195537936,
+      "mw_mean": 349.30416666666673
+    },
+    {
+      "run": 1,
+      "n_generated": 500,
+      "validity": 0.564,
+      "uniqueness": 1.0,
+      "novelty": 0.9929078014184397,
+      "diversity": 0.907066474897041,
+      "drug_likeness": 0.8,
+      "qed_mean": 0.6187915901987848,
+      "sa_mean": 2.5671560759101464,
+      "mw_mean": 360.84609285714293
+    },
+    {
+      "run": 2,
+      "n_generated": 500,
+      "validity": 0.582,
+      "uniqueness": 1.0,
+      "novelty": 0.9862542955326461,
+      "diversity": 0.908425517688246,
+      "drug_likeness": 0.8641114982578397,
+      "qed_mean": 0.639652027575386,
+      "sa_mean": 2.5811427418486854,
+      "mw_mean": 345.05329268292695
+    },
+    {
+      "run": 3,
+      "n_generated": 500,
+      "validity": 0.568,
+      "uniqueness": 1.0,
+      "novelty": 0.9964788732394366,
+      "diversity": 0.907744883503478,
+      "drug_likeness": 0.8409893992932862,
+      "qed_mean": 0.6362922012772193,
+      "sa_mean": 2.5674828392072926,
+      "mw_mean": 361.88102120141355
+    },
+    {
+      "run": 4,
+      "n_generated": 500,
+      "validity": 0.612,
+      "uniqueness": 1.0,
+      "novelty": 1.0,
+      "diversity": 0.9072861512401467,
+      "drug_likeness": 0.8137254901960784,
+      "qed_mean": 0.6273581830113976,
+      "sa_mean": 2.573766356499206,
+      "mw_mean": 354.41620588235304
+    },
+    {
+      "run": 5,
+      "n_generated": 500,
+      "validity": 0.56,
+      "uniqueness": 1.0,
+      "novelty": 0.9928571428571429,
+      "diversity": 0.9047869375120867,
+      "drug_likeness": 0.8273381294964028,
+      "qed_mean": 0.6436377417227531,
+      "sa_mean": 2.547433625788933,
+      "mw_mean": 358.21384892086337
+    },
+    {
+      "run": 6,
+      "n_generated": 500,
+      "validity": 0.536,
+      "uniqueness": 1.0,
+      "novelty": 0.9888059701492538,
+      "diversity": 0.9094099771847041,
+      "drug_likeness": 0.7924528301886793,
+      "qed_mean": 0.6244726421970446,
+      "sa_mean": 2.596546466654289,
+      "mw_mean": 358.6786226415095
+    },
+    {
+      "run": 7,
+      "n_generated": 500,
+      "validity": 0.56,
+      "uniqueness": 1.0,
+      "novelty": 0.9857142857142858,
+      "diversity": 0.9111511127906176,
+      "drug_likeness": 0.8043478260869565,
+      "qed_mean": 0.6109044782115539,
+      "sa_mean": 2.677081607722152,
+      "mw_mean": 370.5787608695653
+    },
+    {
+      "run": 8,
+      "n_generated": 500,
+      "validity": 0.594,
+      "uniqueness": 1.0,
+      "novelty": 0.9932659932659933,
+      "diversity": 0.9086528370671609,
+      "drug_likeness": 0.8169491525423729,
+      "qed_mean": 0.6261183729251946,
+      "sa_mean": 2.6319751022868423,
+      "mw_mean": 357.4632372881357
+    },
+    {
+      "run": 9,
+      "n_generated": 500,
+      "validity": 0.574,
+      "uniqueness": 1.0,
+      "novelty": 0.9895470383275261,
+      "diversity": 0.909725702418266,
+      "drug_likeness": 0.8133802816901409,
+      "qed_mean": 0.6070845522988841,
+      "sa_mean": 2.645794774157516,
+      "mw_mean": 359.2028782873241
+    }
+  ],
+  "summary": {
+    "validity": {
+      "mean": 0.5734000000000001,
+      "std": 0.019940912717325635
+    },
+    "uniqueness": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "novelty": {
+      "mean": 0.9912132770367738,
+      "std": 0.004497211008266518
+    },
+    "diversity": {
+      "mean": 0.9085433491657409,
+      "std": 0.0018562780291855204
+    },
+    "drug_likeness": {
+      "mean": 0.8210100163307311,
+      "std": 0.020515329878427017
+    },
+    "qed_mean": {
+      "mean": 0.627427487864866,
+      "std": 0.0119155757255106
+    },
+    "sa_mean": {
+      "mean": 2.5973262409628854,
+      "std": 0.038952820114081695
+    },
+    "mw_mean": {
+      "mean": 357.56381272979013,
+      "std": 6.616682100647641
+    }
+  }
+}

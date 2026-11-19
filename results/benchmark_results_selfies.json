@@ -1,0 +1,161 @@
+{
+  "tokenizer": "selfies",
+  "n_runs": 10,
+  "n_samples_per_run": 500,
+  "per_run_results": [
+    {
+      "run": 0,
+      "n_generated": 500,
+      "validity": 1.0,
+      "uniqueness": 1.0,
+      "novelty": 0.994,
+      "diversity": 0.9131237993965162,
+      "drug_likeness": 0.8209255533199196,
+      "qed_mean": 0.589452418617387,
+      "sa_mean": 3.1348926332692697,
+      "mw_mean": 370.55193360160973
+    },
+    {
+      "run": 1,
+      "n_generated": 500,
+      "validity": 1.0,
+      "uniqueness": 1.0,
+      "novelty": 0.998,
+      "diversity": 0.9145200435385604,
+      "drug_likeness": 0.8036072144288577,
+      "qed_mean": 0.589136190387249,
+      "sa_mean": 3.182043697066874,
+      "mw_mean": 372.35294388777567
+    },
+    {
+      "run": 2,
+      "n_generated": 500,
+      "validity": 0.998,
+      "uniqueness": 1.0,
+      "novelty": 0.9859719438877755,
+      "diversity": 0.9130457621600253,
+      "drug_likeness": 0.7865853658536586,
+      "qed_mean": 0.5795508202786185,
+      "sa_mean": 3.2404335535949524,
+      "mw_mean": 382.98768902439036
+    },
+    {
+      "run": 3,
+      "n_generated": 500,
+      "validity": 1.0,
+      "uniqueness": 1.0,
+      "novelty": 0.988,
+      "diversity": 0.9145349170845564,
+      "drug_likeness": 0.8259109311740891,
+      "qed_mean": 0.5889309902853725,
+      "sa_mean": 3.2591602385453156,
+      "mw_mean": 373.78142561302434
+    },
+    {
+      "run": 4,
+      "n_generated": 500,
+      "validity": 0.996,
+      "uniqueness": 1.0,
+      "novelty": 0.9979919678714859,
+      "diversity": 0.9141267244661887,
+      "drug_likeness": 0.7887323943661971,
+      "qed_mean": 0.5806325020751337,
+      "sa_mean": 3.2198378536730496,
+      "mw_mean": 382.33981891348105
+    },
+    {
+      "run": 5,
+      "n_generated": 500,
+      "validity": 1.0,
+      "uniqueness": 1.0,
+      "novelty": 1.0,
+      "diversity": 0.9137428624376003,
+      "drug_likeness": 0.816,
+      "qed_mean": 0.574417462624878,
+      "sa_mean": 3.16752722502625,
+      "mw_mean": 377.9624740000001
+    },
+    {
+      "run": 6,
+      "n_generated": 500,
+      "validity": 1.0,
+      "uniqueness": 1.0,
+      "novelty": 0.994,
+      "diversity": 0.9129109112474347,
+      "drug_likeness": 0.7987927565392354,
+      "qed_mean": 0.5666051080693764,
+      "sa_mean": 3.1704613190995303,
+      "mw_mean": 375.3511871227365
+    },
+    {
+      "run": 7,
+      "n_generated": 500,
+      "validity": 0.998,
+      "uniqueness": 1.0,
+      "novelty": 0.9939879759519038,
+      "diversity": 0.9130272105569387,
+      "drug_likeness": 0.8205645161290323,
+      "qed_mean": 0.5829793643737357,
+      "sa_mean": 3.1934766066597957,
+      "mw_mean": 372.0016592741936
+    },
+    {
+      "run": 8,
+      "n_generated": 500,
+      "validity": 0.998,
+      "uniqueness": 1.0,
+      "novelty": 0.9919839679358717,
+      "diversity": 0.9127099419801804,
+      "drug_likeness": 0.793939393939394,
+      "qed_mean": 0.5753703858015307,
+      "sa_mean": 3.2209452132712344,
+      "mw_mean": 375.97721212121223
+    },
+    {
+      "run": 9,
+      "n_generated": 500,
+      "validity": 0.994,
+      "uniqueness": 1.0,
+      "novelty": 0.9919517102615694,
+      "diversity": 0.9120734154617531,
+      "drug_likeness": 0.8255578093306288,
+      "qed_mean": 0.5785916402830001,
+      "sa_mean": 3.1788386083455182,
+      "mw_mean": 380.12826774847883
+    }
+  ],
+  "summary": {
+    "validity": {
+      "mean": 0.9984,
+      "std": 0.001959591794226544
+    },
+    "uniqueness": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "novelty": {
+      "mean": 0.9935887565908607,
+      "std": 0.004182753898166625
+    },
+    "diversity": {
+      "mean": 0.9133815588329754,
+      "std": 0.0007746466456883799
+    },
+    "drug_likeness": {
+      "mean": 0.8080615935081011,
+      "std": 0.014661428658513635
+    },
+    "qed_mean": {
+      "mean": 0.5805666882796282,
+      "std": 0.007020345542710945
+    },
+    "sa_mean": {
+      "mean": 3.196761694855179,
+      "std": 0.03583427721494126
+    },
+    "mw_mean": {
+      "mean": 376.34346113069023,
+      "std": 4.1599046762211405
+    }
+  }
+}
